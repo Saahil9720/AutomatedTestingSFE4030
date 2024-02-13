@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class RomanNumeralTest {
     @Test
     public void testValidRomanNumerals() {
-        assertEquals(3, Main.romanToInt("III"));
+        aassertEquals(3, Main.romanToInt("III"));
         assertEquals(9, Main.romanToInt("IX"));
         assertEquals(12, Main.romanToInt("XII"));
         assertEquals(24, Main.romanToInt("XXIV"));
