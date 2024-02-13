@@ -3,7 +3,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class RomanNumeralTest {
-    private final Main Main = new Main();
+    private final Main main = new Main();
 
     @Test
     public void testValidRomanNumerals() {
