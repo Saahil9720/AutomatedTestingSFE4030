@@ -1,1 +1,1 @@
-This test pass 3 tests out of 4 when compiled
+This test pass 4 tests out of 4 when compiled
