@@ -13,7 +13,12 @@ public class Main {
         map.put('M', 1000);
     }
 
-    public int romanToInt(String s) {
+    public static int romanToInt(String s) {
+        // Validate input
+        if (!s.matches("[IVXLCDM]+")) {
+            return 0;
+        }
+
         int convertedNumber = 0;
         for (int i = 0; i < s.length(); i++) {
             int currentNumber = map.get(s.charAt(i));
@@ -26,5 +31,11 @@ public class Main {
             }
         }
         return convertedNumber;
+    }
+
+    public static void main(String[] args) {
+        // Example usage
+        String roman = "MCMXCIV"; // 1994
+        System.out.println(romanToInt(roman));
     }
 }
